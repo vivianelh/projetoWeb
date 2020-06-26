@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informativo</title>
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Responsividade-->   
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+
+<!--NavBAr com dropdown-->
+
+<!--NAVBAR-->
+
+<nav    class = "navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class = "navbar-brand" href = "#">InformeC-19</a>
+ 
+   <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#conteudoNavbarSuportado" aria-controls = "conteudoNavbarSuportado" aria-expanded = "false" aria-label = "Alterna navegação">
+   <span   class = "navbar-toggler-icon"></span>
+   </button>   
+
+   <div class = "collapse navbar-collapse" id = "conteudoNavbarSuportado">
+      <ul  class = "navbar-nav mr-auto">
+        <li  class = "nav-item active">
+          <a   class = "nav-link" href               = "#"> QUEM SOMOS <span class = "sr-only">(página atual)</span></a>
+        </li>
+        
+        <li class = "nav-item dropdown">
+          <a  class = "nav-link dropdown-toggle" href = "#" id = "navbarDropdown" role = "button" data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">
+           EVOLUÇÃO COVID-19
+          </a>
+            <div class = "dropdown-menu" aria-labelledby = "navbarDropdown">
+              <a   class = "dropdown-item" href            = "#">Tabela</a>
+              <a   class = "dropdown-item" href            = "#">Gráfico</a>
+              <div class = "dropdown-divider"></div>
+            </div>
+        </li>                    
+      </ul>
+        
+    <!-- botão -->
+      <form   class = "form-inline my-2 my-lg-0">
+       <input  class = "form-control mr-sm-2" type                 = "search" placeholder = "Digite aqui" aria-label = "Pesquisar">
+        <button class = "btn btn-outline-success my-2 my-sm-0" type = "submit">PESQUISAR</button>
+      </form>
+  </nav>
+
+   <!--- Grid Carrossel-->
+                    
+   <div class = "container-fluid bg-dark" >
+    <div class = "row">
+      <div class = "col-sm-12">
+        <div class = "grid-container"></div>
+        <div id    = "carouselExampleIndicators" class = "carousel slide carousel-fade" data-ride = "carousel">
+         <!--Carosel indicators-->
+         <ol class       = "carousel-indicators">
+         <li data-target = "#carouselExampleIndicators" data-slide-to = "0" class = "active"></li>
+         <li data-target = "#carouselExampleIndicators" data-slide-to = "1"></li>
+         
+         </ol>
+         <!--Carosel inner-->
+          <div class = "carousel-inner">
+            <div class = "carousel-item active">
+               <img class = "d-block w-100" src = https://www.lucasdorioverde.mt.gov.br/site/assets/images/coronavirus_capa.jpg alt = "Primeiro Slide" width = "300" height = "300">
+             
+          </div>
+          <div class = "carousel-item">
+            <img class = "d-block w-100" src = https://lh3.googleusercontent.com/proxy/sS8XMRnwCYMWnx5vlPsxPmRjqIPxNr3Rt5y7HsdgqUNlr2B-jn8mAjrHngJaoeiYF70rutLg8yPiP51UcY-VKT3Iw5_B4Y0KdLUgu4cjHSeByEQth9GUPVxokFZzIvt2A7C3qINGIio alt = "Segundo Slide" width = "300" height = "300">
+           
+          </div>
+         
+        </div>
+        <!--Carosel Control-->
+        <a    class = "carousel-control-prev" href             = "#carouselExampleIndicators" role = "button" data-slide = "prev">
+          <span class = "carousel-control-prev-icon" aria-hidden = "true"></span>
+          <span class = "sr-only">Anterior</span>
+        </a>
+        <a    class = "carousel-control-next" href             = "#carouselExampleIndicators" role = "button" data-slide = "next">
+          <span class = "carousel-control-next-icon" aria-hidden = "true"></span>
+          <span class = "sr-only">Próximo</span>
+          </a>
+     </div>            
+
+
+
+    </div>                      
+</div> 
+</div> 
+
+<!--Grid - Card C19-->
+
+<div class = "container-fluid bg-dark" >
+  <div class = "row">
+     <div class = "col-sm-12">
+         <div class="card-deck mt-4">
+             <div class="card">
+               <img class="card-img-top" src= https://www.ufsm.br/orgaos-executivos/caed/wp-content/uploads/sites/391/2020/03/1-300x300.jpg alt="Imagem de capa do card" width="100" height="200">
+               <div class="card-body">                
+                 <p class="card-text"> 
+                   <ul>
+                     <li>Gotículas de saliva; </li>
+                     <li>Espirros, acessos de tosse;</li>
+                     <li>Contato próximo e superfícies contaminadas.</li>
+                   </ul>
+                 </p>
+               </div>
+               <div class="card-footer">
+                 <small class="text-muted">Leia mais</small>
+               </div>
+             </div>
+             <div class="card">
+               <img class="card-img-top" src=https://www.ufsm.br/orgaos-executivos/caed/wp-content/uploads/sites/391/2020/03/2-300x300.jpg alt="Imagem de capa do card" width="100" height="200">
+               <div class="card-body">                 
+                 <p class="card-text">
+                   <ul>
+                     <li>Higienize as mãos várias vezes ao dia;</li>
+                     <li>Cubra o nariz e a boca quando espirrar ou tossir;</li>
+                     <li>Evite tocar nas mucosas dos olhos, nariz e boca.</li>
+                    </ul>
+                 </p>
+               </div>
+               <div class="card-footer">
+                 <small class="text-muted">Leia mais</small>
+               </div>
+             </div>
+             <div class="card">
+               <img class="card-img-top" src=https://www.ufsm.br/orgaos-executivos/caed/wp-content/uploads/sites/391/2020/03/3-300x300.jpg alt="Imagem de capa do card" width="100" height="200">
+               <div class="card-body">                 
+                 <p class="card-text">
+                     <ul>
+                       <li>Febre;</li>
+                       <li>Tosse;</li>
+                       <li>Dificuldade para respirar</li>
+                       <li>Ao sentir os sintomas, procure um médico ou um posto de saúde.</li>
+                      </ul>
+                   </p>
+               </div>
+               <div class="card-footer">
+                 <small class="text-muted">Leia mais</small>
+               </div>
+             </div>
+           </div>
+     </div>
+   </div>               
+ </div>
+
+ <div class= "container-fluid bg-dark" >                      
+     <div class= "row">
+       <div class= "col-sm-12">
+         
+       </div>
+     </div>  
+
+      <!--Grid landing page-->  
+
+    <div class= "container-fluid bg-dark " >                      
+      <div class= "row">
+            
+        <div class= "col-sm-12">
+            
+              <div class="form-group mt-4">
+                <p class="text-white bg-dark">Receba mais dicas de prevenção</p> 
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <div class= "container-fluid bg-dark " >                      
+      <div class= "row">
+        <div class= "col-sm-6">             
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu nome">
+          <p></p>
+          <button type="submit" class="btn btn-primary">Quero receber</button>
+        </div>
+        <div class= "col-sm-6">
+         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+         <p></p>
+        </div>         
+                          
+      </div> 
+    </div>
+
+<!--roda pé-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <a class="navbar-brand" href="#">InformeC-19</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="textoNavbar">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Destaques</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">contao</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Consulte um médico regularmente!
+    </span>
+  </div>
+</nav>
+
+
+<!-- JavaScript (Opcional) -->
+<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
